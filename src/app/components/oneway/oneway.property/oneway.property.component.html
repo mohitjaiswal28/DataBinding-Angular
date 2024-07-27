@@ -1,0 +1,12 @@
+<h6 class="h6 flex justify-center text-md mt-4 flex-col">
+  This is example of =
+  <button
+    class="p-2 border-2 border-black rounded-md"
+    [disabled]="isDisabled"
+    [ngClass]="{ 'bg-red-300': isDisabled, 'bg-blue-300': !isDisabled }"
+  >
+    One way property binding
+  </button>
+  <br />
+  <i>ⓘ Button is disabled with the help of property binding</i>
+</h6>

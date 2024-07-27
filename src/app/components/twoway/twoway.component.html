@@ -1,0 +1,20 @@
+<div class="flex justify-center">
+  <button class="mt-4 p-3 bg-amber-400 rounded" (click)="redirectHome()">
+    Home
+  </button>
+</div>
+<div class="p-4 py-20 m-4 bg-blue-300 mx-20">
+  <div class="flex justify-center">
+    <label for="search"></label>
+    <input
+      type="text"
+      class="p-2 border-2 border-gray-400"
+      [(ngModel)]="searchText"
+      placeholder="Search"
+      autofocus
+    />
+  </div>
+  <p class="p text-center mt-4">
+    You are searching for: <span class="font-bold">{{ searchText }}</span>
+  </p>
+</div>
