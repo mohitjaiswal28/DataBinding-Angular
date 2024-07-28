@@ -42,6 +42,33 @@ Two-way data binding is useful when you want to synchronize data between the com
 - Banana in the box = `[()]`
 
 ## Demo ⭐
+
 ![Home](./Demo/Demo1.png)
 ![Oneway](./Demo/Demo2.png)
 ![Twoway](./Demo/Demo3.png)
+
+# How to Clone and Run this Project 🖥️
+
+1. Clone the repository:
+
+```
+git clone https://github.com/mohitjaiswal28/DataBinding-Angular.git
+```
+
+2. Navigate to the project directory:
+
+```
+cd DataBinding-Angular
+```
+
+3. Install the dependencies:
+
+```
+npm install
+```
+
+4. Run the application:
+
+```
+ng serve
+```
