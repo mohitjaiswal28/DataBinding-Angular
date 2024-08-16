@@ -12,9 +12,16 @@
       [(ngModel)]="searchText"
       placeholder="Search"
       autofocus
+      #myText
     />
   </div>
   <p class="p text-center mt-4">
     You are searching for: <span class="font-bold">{{ searchText }}</span>
   </p>
+
+  <br />
+
+  <div class="p text-center mt-4">
+    {{ myText.value }}
+  </div>
 </div>
